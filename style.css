@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background: url('./assets/Vectary\ texture.png');
+    height: 100vh;
+}
+
+.header__banner_left > img{
+    width: 100px;
+    height: 100px;
+    /* border: 3rem solid #fff;
+    border-radius: 50%; */
+    position: relative;
+    /* top: 20rem;
+    left: 10rem; */
+}
+
+
+/* parent header */
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    border: 1px solid red;
+}
+.header__banner_right h2{
+    text-align: center;
+    text-shadow: 4px 6px 4px 0px rgba(0, 0, 0, 0.43);
+    font-family: Zen Dots;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__streaming__button{
+    border: 3px solid #000;
+    background: #010202;
+    box-shadow: 0px 4px 4px 0px rgba(73, 235, 59, 0.35);
+
+    color: #FBF9F9;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: .2rem 3rem;
+}
+
+.header__streaming__button{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 50%;
+    margin: 0 auto;
+}
+.header__banner_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+.header__search__wrapper{
+    margin: auto;
+        background: white;
+    padding: 0.3rem;
+    border-radius: 6px;
+}
+
+.header__search__wrapper input{
+    border: none;
+    outline: none;
+}
+
+header .button {
+    right: 2rem;
+    top: 1rem;
+    padding: 0.4rem;
+    border-radius: 2px;
+    border: 0;
+}
+.signup{
+    position: absolute;
+}
+
+.homepage__link{
+    color: white;
+    text-decoration: none;
+}
+
+/* landing page css ends */
+
+/* homepage css here */
+.homepage__nav__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(110deg, #374780 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.homepage__nav__wrapper ul{
+    display: flex;
+    list-style: none;
+    gap: .4rem;
+}
+.search__wrapper__homepage{
+    background: rgb(139, 138, 138);
+    border-radius: 20px;
+    padding: .3rem 1rem;
+
+    
+}
+.search__wrapper__homepage > i{
+    border-left: 1px solid white;
+}
+.search__wrapper__homepage input{
+    border: none;
+    outline: none;
+    color: white;
+    background: transparent;
+}
+/* homepage css end */
+
+.banner_image img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    filter: brightness(.7);
+    
+}
+
+.d-flex--banner-controls{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 2rem;
+}
+.banner__carousal{
+    position: relative;
+}
+
+.banner_controls{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+}
+
+.movie__title{
+    font-size: 2rem;
+    color: whitesmoke;
+    text-transform: uppercase;
+    
+}
+
+.banner_image{
+    display: flex;
+    overflow-x: scroll;
+}
